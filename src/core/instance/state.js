@@ -108,8 +108,8 @@ function initProps (vm: Component, propsOptions: Object) {
   }
   toggleObserving(true)
 }
-
-function initData (vm: Component) {
+//initData
+function initData (vm: Component) { 
   let data = vm.$options.data
   data = vm._data = typeof data === 'function'
     ? getData(data, vm)
